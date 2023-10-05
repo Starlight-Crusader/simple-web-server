@@ -1,0 +1,82 @@
+{
+    "pages": [
+        {
+            "page_url": "http://127.0.0.1:8080/",
+            "contents": {
+                "sectons_refs": [
+                    {
+                        "name": "Home",
+                        "href": "http://127.0.0.1:8080/home"
+                    },
+                    {
+                        "name": "About",
+                        "href": "http://127.0.0.1:8080/about"
+                    },
+                    {
+                        "name": "Contacts",
+                        "href": "http://127.0.0.1:8080/contacts"
+                    },
+                    {
+                        "name": "Products",
+                        "href": "http://127.0.0.1:8080/products"
+                    }
+                ]
+            }
+        },
+        {
+            "page_url": "http://127.0.0.1:8080/home",
+            "contents": {
+                "message": "Hello, I'am a web server and my developer is behind you!"
+            }
+        },
+        {
+            "page_url": "http://127.0.0.1:8080/about",
+            "contents": {
+                "message": "This will be a simple web catalog..."
+            }
+        },
+        {
+            "page_url": "http://127.0.0.1:8080/contacts",
+            "contents": {
+                "message": "Tel: +000 11 00-11-00"
+            }
+        },
+        {
+            "page_url": "http://127.0.0.1:8080/products",
+            "contents": {
+                "products-refs": [
+                    {
+                        "name": "Fluent Python: Clear, Concise, and Effective Programming",
+                        "href": "http://127.0.0.1:8080/products/0"
+                    },
+                    {
+                        "name": "Introducing Python: Modern Computing in Simple Packages",
+                        "href": "http://127.0.0.1:8080/products/1"
+                    }
+                ]
+            }
+        },
+        {
+            "page_url": "http://127.0.0.1:8080/products/0",
+            "contents": {
+                "product_info": {
+                    "name": "Fluent Python: Clear, Concise, and Effective Programming",
+                    "author": "Luciano Ramalho",
+                    "price": "39.95",
+                    "description": "Don't waste time bending Python to fit patterns you've learned in other languages. Python's simplicity lets you become productive quickly, but often this means you aren't using everything the language has to offer. With the updated edition of this hands-on guide, you'll learn how to write effective, modern Python 3 code by leveraging its best ideas. "
+                }
+            }
+        },
+        {
+            "page_url": "http://127.0.0.1:8080/products/1",
+            "contents": {
+                "product_info": {
+                    "name": "Introducing Python: Modern Computing in Simple Packages",
+                    "author": "Bill Lubanovic",
+                    "price": "27.49",
+                    "description": "Easy to understand and fun to read, this updated edition of Introducing Python is ideal for beginning programmers as well as those new to the language. Author Bill Lubanovic takes you from the basics to more involved and varied topics, mixing tutorials with cookbook-style code recipes to explain concepts in Python 3. End-of-chapter exercises help you practice what you\u00e2\u0080\u0099ve learned."
+                }
+            }
+        }
+    ]
+}
